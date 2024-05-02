@@ -1,6 +1,26 @@
-img, p, h1, h2, .divider {
+img, p, h1, h2, .divider, .dividesoil, .dividewater {
     width: 100%;
     max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divider_new {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3px;
+    background-color: #Ef4024;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.large_image {
+    width: 100%;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -13,7 +33,12 @@ img {
 p {
 	font-size: 18px;
 	line-height: 1.4;
-	font-family: "Crimson Text";
+	font-family: "Roboto";
+}
+
+
+h1 {
+font-size: 64px;
 }
 
 h1, h2 { 
@@ -22,16 +47,22 @@ font-family: "Roboto";
 
 .divider {
     height: 2px;
-    background-color: #0868ac;
+    background-color: #757b80;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.name {font-size: 20 px;
-	line-height: 1.4;
-	font-family: "Nunito Sans";
-    color: #8394f8;
-}
+.name {
+    font-size: 22px;
+    line-height: 1.4;
+    font-family: "Roboto";
+    color: #000000;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+  }
 
 .USA {
     display: block;
@@ -41,3 +72,29 @@ font-family: "Roboto";
     margin-left: auto;
     margin-right: auto;
 }
+
+
+.original-width {
+    width: auto; /* This will make the image use its original width */
+    max-width: none; /* This removes the max-width constraint */
+  }
+
+  body {
+    background-color: black;
+    color: white; /* Add this line to set the text color to white for better contrast */
+  }
+
+  .dividesoil {
+    height: 2px;
+    background-color: #745C40;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dividewater {
+    height: 2px;
+    background-color: #3953A4;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
